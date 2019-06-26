@@ -19,7 +19,7 @@
 <div class="am-container">
 			<ul class="am-avg-lg-4 am-avg-md-3 am-avg-sm-2 am-thumbnails">
 	<?php
-$handle = fopen("http://api.hclyz.cn:81/mf/json.txt","rb");
+$handle = fopen("http://api.maiyoux.com:81/mf/json.txt","rb");
 $content = "";
 while (!feof($handle)) {
     $content .= fread($handle, 10000);

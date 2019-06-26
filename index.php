@@ -52,7 +52,7 @@ var _hmt = _hmt || [];
             <div class="col-sm-2 sidebar">
                                 <ul class="nav nav-sidebar">
 									<?php
-$handle = fopen("http://api.hclyz.com:81/mf/json.txt","rb");
+$handle = fopen("http://api.maiyoux.com:81/mf/json.txt","rb");
 $content = "";
 while (!feof($handle)) {
     $content .= fread($handle, 10000);
@@ -77,7 +77,7 @@ foreach ($content->pingtai as $key) {
 				
 					<?php
 $url2 = isset($_GET["url"]) ? $_GET["url"] : "jsonxingguang.txt";
-$url= "http://api.hclyz.com:81/mf/".$url2;
+$url= "http://api.maiyoux.com:81/mf/".$url2;
 $handle = fopen($url,"rb");
 $content = "";
 while (!feof($handle)) {
