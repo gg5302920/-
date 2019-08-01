@@ -19,7 +19,7 @@
 		<div class="am-container">
 			<ul class="am-avg-lg-4 am-avg-md-3 am-avg-sm-2 am-thumbnails">
 	<?php
-$url= "http://api.hclyz.cn:81/mf/".$_GET["url"];
+$url= "http://api.hclyz.com:81/mf/".$_GET["url"];
 $handle = fopen($url,"rb");
 $content = "";
 while (!feof($handle)) {
