@@ -87,7 +87,7 @@ $content = json_decode($content);
 foreach ($content->zhubo as $key) {
     $title1= str_replace(array("%3F","%20","%28","%29","%5E","%7E"),"",$key->title);
     echo '<div class="col-xs-6 col-sm-4 col-md-3 placeholder room-wrapper" data-site="Panda">
-                            <a href="play.php?url='.$key->address.'" target="_blank" class="room-box">
+                            <a href="/zb/ckplayer/index.html?videoUrl='.$key->address.'" target="_blank" class="room-box">
                                 <div class="imgShow">
                                     <div class="img-wrapper">
                                         <img class="lazy" data-original="'.$key->img.'">
