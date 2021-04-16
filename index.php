@@ -5,11 +5,11 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <title>直播聚合</title>
     <link rel="stylesheet" type="text/css" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="http://live.s1craft.com/static/css/homepage.css?v=201602131645">
+    <link rel="stylesheet" type="text/css" href="/css/homepage.css?v=201602131645">
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="http://live.s1craft.com/static/js/jquery.lazyload.min.js"></script>
-    <script src="http://live.s1craft.com/static/js/homepage.js?v=201602131645"></script>
+    <script src="/js/jquery.lazyload.min.js"></script>
+    <script src="/js/homepage.js?v=201602131645"></script>
   <script>
 var _hmt = _hmt || [];
 (function() {
