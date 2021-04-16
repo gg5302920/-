@@ -1,0 +1,158 @@
+.navbar-fixed-top {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.container-fluid {
+    margin-left: 5px;
+}
+
+.sidebar {
+    display: none;
+}
+@media (min-width: 768px) {
+    .sidebar {
+        display: block;
+        position: fixed;
+        top: 50px;
+        bottom: 0;
+        left: 0;
+        z-index: 10;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-right: 1px solid #eee;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: #f5f5f5;
+    }
+
+    .navbar-nav > li > a {
+        padding: 10px;
+    }
+
+    ul.navbar-right {
+        padding-right: 10px;
+    }
+}
+.nav-sidebar {
+    margin-right: -21px;
+    margin-left: -20px;
+}
+.nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #428bca;
+}
+.main {
+    top: 50px;
+    padding: 20px;
+}
+@media (min-width: 768px) {
+    .main {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+.main .page-header {
+    margin-top: 0;
+}
+
+.page-header {
+    font-weight: normal;
+}
+
+.placeholders {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.placeholders h5 {
+    margin-bottom: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 5px;
+    line-height: 1.2;
+    font-weight: bold;
+}
+.placeholder a:hover span{
+    text-decoration: none;
+}
+
+.text-muted{
+    white-space: nowrap;text-overflow:ellipsis; overflow:hidden;
+}
+
+.placeholder {
+    margin-bottom: 20px;
+}
+.placeholder img {
+    display: inline-block;
+    /*border-radius: 50%;*/
+}
+.placeholder .imgShow {
+    width: 100%; height: auto;
+}
+
+.lazy {
+    width: 100%;
+}
+
+.imgShow {
+    overflow: hidden;
+    -moz-border-radius: 5px; border-radius: 5px; -webkit-border-radius: 5px;
+}
+
+.img-wrapper {
+    height: 0;
+    padding-bottom: 56%;
+}
+
+.room-box:hover {
+    text-decoration: none;
+}
+
+.room-info {
+    padding-top: 4px;
+}
+
+.room-owner {
+    background: url("https://shark.douyucdn.cn/app/douyu/res/page/index/mem-icos.png") no-repeat;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 1.1;
+    overflow: hidden;
+    float: left;
+    padding-left: 18px;
+    text-align: left;
+    width: 60%;
+    background-position-x: 0px;
+    background-position-y: 1px;
+}
+
+
+.room-pop {
+    background: url("https://shark.douyucdn.cn/app/douyu/res/page/index/mem-icos.png") no-repeat;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 1.1;
+    overflow: hidden;
+    float: right;
+    padding-left: 20px;
+    text-align: right;
+    background-position-x: 0px;
+    background-position-y: -33px;
+}
+
+.sidebar-bottom {
+    width: 100%;
+    height: auto;
+}
